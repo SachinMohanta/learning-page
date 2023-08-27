@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.training-section{
+     width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHdoaXRlJTIwJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60") ;
+    background-size: cover;    
+}
+.training-section h1{
+    text-align:center;
+    padding-top: 20px;
+}
+.container{
+    width: 1180px;
+    /* border: 2px solid red; */
+     /* auto means it will automatical take both side margine  */
+      margin: auto;  
+      display: flex;
+       flex-wrap:wrap ;
+      justify-content: space-around;
+      padding-top: 13px;
+
+}
+.course-name:hover {
+background-color: blue;
+}
+.course-name:hover h3,.course-name:hover p{
+    color: white;
+}
+.course-name:hover button{
+    background-color: rgb(248, 68, 212);
+    color: white;
+}
+@media only screen and (min-width:200px) and (max-width:767px) {
+    .container{
+        width: 100%;
+        flex-direction: column  ;
+    }
+    
+}
